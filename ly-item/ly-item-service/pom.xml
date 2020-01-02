@@ -54,5 +54,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
+        <!--引入工具类-->
+        <dependency>
+            <groupId>com.leyou.service</groupId>
+            <artifactId>ly-common</artifactId>
+            <version>${leyou.latest.version}</version>
+        </dependency>
     </dependencies>
 </project>
