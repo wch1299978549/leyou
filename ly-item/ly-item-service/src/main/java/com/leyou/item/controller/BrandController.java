@@ -39,4 +39,12 @@ public class BrandController {
         brandService.updateBrand(brand,cids);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
+    @GetMapping("cid/{cid}")
+    public ResponseEntity<List<Brand>> queryBrandByCategory(@PathVariable("cid") Long cid){
+        List<Brand> brandList = this.brandService.queryBrandByCategory(cid);
+        if(null!=brandList && brandList.size()>0){
+            return ResponseEntity.ok(brandList);
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+    }
 }
