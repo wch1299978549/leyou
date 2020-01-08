@@ -2,17 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3813bf47-c86e-4cfb-9622-aca800f91796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Sku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/BrandApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/SpecApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/ly-search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/LySearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/Repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/client/SpecClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/service/IndexService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/utils/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/test/java/com/bigdata/IndexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Spu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Spu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/leyou/gateway/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/leyou/gateway/config/GlobalCorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,7 +109,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LyUploadService">
+  <component name="RunManager" selected="JUnit.IndexTest.loadData">
+    <configuration name="IndexTest.loadData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigdata" />
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.IndexTest" />
+      <option name="METHOD_NAME" value="loadData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LyApiGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ly-api-gateway" />
       <extension name="coverage">
@@ -131,6 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LySearchService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LySearchService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LyUploadService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ly-upload" />
       <extension name="coverage">
@@ -145,6 +186,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.IndexTest.loadData" />
+      <item itemvalue="Spring Boot.LySearchService" />
       <item itemvalue="Spring Boot.LyRegistry" />
       <item itemvalue="Spring Boot.LyItemApplication" />
       <item itemvalue="Spring Boot.LyApiGateway" />
@@ -152,10 +195,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LyItemApplication" />
         <item itemvalue="Spring Boot.LyApiGateway" />
         <item itemvalue="Spring Boot.LyUploadService" />
+        <item itemvalue="Spring Boot.LyItemApplication" />
         <item itemvalue="Spring Boot.LyRegistry" />
+        <item itemvalue="JUnit.IndexTest.loadData" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +248,9 @@
       <workItem from="1578116613423" duration="10772000" />
       <workItem from="1578205543356" duration="7794000" />
       <workItem from="1578274309026" duration="5071000" />
-      <workItem from="1578303585839" duration="6826000" />
+      <workItem from="1578303585839" duration="6995000" />
+      <workItem from="1578367446284" duration="12408000" />
+      <workItem from="1578468611908" duration="17765000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1577714535007</created>
@@ -241,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578127350686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="商品管理(完毕)">
+      <created>1578314800659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578314800659</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,81 +322,82 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="第二次提交" />
     <MESSAGE value="商品管理(商品列表,规格参数)" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品管理(商品列表,规格参数)" />
+    <MESSAGE value="商品管理(完毕)" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品管理(完毕)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="181" key="#Project_Structure" timestamp="1578124865403">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1578493506078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578124865403" />
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578493506078" />
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577931888146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577931888146" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1577937989775">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1578489161186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577937989775" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578489161186" />
     <state x="767" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577967832262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577967832262" />
-    <state x="530" y="117" key="CommitChangelistDialog2" timestamp="1578127347158">
+    <state x="530" y="117" key="CommitChangelistDialog2" timestamp="1578314795626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="530" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578127347158" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1578303638307">
+    <state x="530" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578314795626" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1578489792443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578303638307" />
-    <state width="1403" height="324" key="GridCell.Tab.0.bottom" timestamp="1578314363569">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578489792443" />
+    <state width="1403" height="323" key="GridCell.Tab.0.bottom" timestamp="1578493159192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363569" />
-    <state width="1403" height="324" key="GridCell.Tab.0.center" timestamp="1578314363569">
+    <state width="1403" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159192" />
+    <state width="1403" height="323" key="GridCell.Tab.0.center" timestamp="1578493159192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363569" />
-    <state width="1403" height="324" key="GridCell.Tab.0.left" timestamp="1578314363569">
+    <state width="1403" height="323" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159192" />
+    <state width="1403" height="323" key="GridCell.Tab.0.left" timestamp="1578493159192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363569" />
-    <state width="1403" height="324" key="GridCell.Tab.0.right" timestamp="1578314363569">
+    <state width="1403" height="323" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159192" />
+    <state width="1403" height="323" key="GridCell.Tab.0.right" timestamp="1578493159192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363569" />
-    <state width="1403" height="324" key="GridCell.Tab.1.bottom" timestamp="1578314363570">
+    <state width="1403" height="323" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159192" />
+    <state width="1403" height="323" key="GridCell.Tab.1.bottom" timestamp="1578493159193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363570" />
-    <state width="1403" height="324" key="GridCell.Tab.1.center" timestamp="1578314363569">
+    <state width="1403" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159193" />
+    <state width="1403" height="323" key="GridCell.Tab.1.center" timestamp="1578493159192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363569" />
-    <state width="1403" height="324" key="GridCell.Tab.1.left" timestamp="1578314363569">
+    <state width="1403" height="323" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159192" />
+    <state width="1403" height="323" key="GridCell.Tab.1.left" timestamp="1578493159192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363569" />
-    <state width="1403" height="324" key="GridCell.Tab.1.right" timestamp="1578314363569">
+    <state width="1403" height="323" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159192" />
+    <state width="1403" height="323" key="GridCell.Tab.1.right" timestamp="1578493159192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363569" />
-    <state width="1403" height="324" key="GridCell.Tab.2.bottom" timestamp="1578314363519">
+    <state width="1403" height="323" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159192" />
+    <state width="1403" height="323" key="GridCell.Tab.2.bottom" timestamp="1578493159193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363519" />
-    <state width="1403" height="324" key="GridCell.Tab.2.center" timestamp="1578314363518">
+    <state width="1403" height="323" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159193" />
+    <state width="1403" height="323" key="GridCell.Tab.2.center" timestamp="1578493159193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363518" />
-    <state width="1403" height="324" key="GridCell.Tab.2.left" timestamp="1578314363518">
+    <state width="1403" height="323" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159193" />
+    <state width="1403" height="323" key="GridCell.Tab.2.left" timestamp="1578493159193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363518" />
-    <state width="1403" height="324" key="GridCell.Tab.2.right" timestamp="1578314363518">
+    <state width="1403" height="323" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159193" />
+    <state width="1403" height="323" key="GridCell.Tab.2.right" timestamp="1578493159193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1403" height="324" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578314363518" />
+    <state width="1403" height="323" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578493159193" />
     <state x="463" y="165" width="1236" height="710" key="SettingsEditor" timestamp="1578116753235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -352,17 +406,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1577792945265" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1578127356672">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1578314806451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578127356672" />
-    <state x="334" y="224" key="new project wizard" timestamp="1577964237218">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578314806451" />
+    <state x="334" y="224" key="new project wizard" timestamp="1578397890267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577964237218" />
+    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578397890267" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1577699130368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577699130368" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/controller/SearchController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

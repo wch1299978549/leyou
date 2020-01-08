@@ -30,6 +30,14 @@ public class GoodsService {
     @Autowired
     private StockMapper stockMapper;
 
+    /**
+     * 查询spu记录
+     * @param key
+     * @param saleable
+     * @param page
+     * @param rows
+     * @return
+     */
     public PageResult<Spu> querySpuByPage(String key, Boolean saleable, Integer page, Integer rows) {
 
         //开启分页

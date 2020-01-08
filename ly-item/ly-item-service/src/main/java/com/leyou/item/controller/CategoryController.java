@@ -31,4 +31,13 @@ public class CategoryController {
         }
         return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
     }
+    @GetMapping("names")
+    public ResponseEntity<List<String>> queryNamesByIds(@RequestParam("ids") List<Long> ids){
+        List<String> stringList = this.categoryService.queryNameByIds(ids);
+        if(null!=stringList && stringList.size()>0){
+            return ResponseEntity.ok(stringList);
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+    }
+
 }
